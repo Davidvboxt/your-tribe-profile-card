@@ -1,48 +1,39 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>FDND Visitekaartje</title>
-  <link rel="stylesheet" href="./styles/style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- CSS -->
+    <link href="styles/style.css" rel="stylesheet">
+
+    <title>Document</title>
 </head>
 <body>
-
-<article>
-  <header>
-    <h1>Jane Doe</h1>
-    <p><em>Creative Frontend Developer in spé</em></p>
-    <button>
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#2c3e50" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-        <path d="M4 8v-2a2 2 0 0 1 2 -2h2" />
-        <path d="M4 16v2a2 2 0 0 0 2 2h2" />
-        <path d="M16 4h2a2 2 0 0 1 2 2v2" />
-        <path d="M16 20h2a2 2 0 0 0 2 -2v-2" />
-      </svg>
-
-      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="red" fill="none" stroke-linecap="round" stroke-linejoin="round">
-        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-        <path d="M15 19v-2a2 2 0 0 1 2 -2h2" />
-        <path d="M15 5v2a2 2 0 0 0 2 2h2" />
-        <path d="M5 15h2a2 2 0 0 1 2 2v2" />
-        <path d="M5 9h2a2 2 0 0 0 2 -2v-2" />
-      </svg>
-    </button>
-
-  </header>
-  
-  <img src="assets/creative-coder.png" alt="Creative Coder">
-
-  <dl>
-    <dt>HTML</dt><dd>🏆🏆🏆</dd>
-    <dt>CSS</dt><dd>🏆🏆</dd>
-    <dt>JavaScript</dt><dd>🏆🏆🏆🏆</dd>
-  </dl>
-  
-  <p>Het WEB is te gek! <br> Met HTML, CSS en JavaScript kan ik vette, interactieve web apps maken.</p>
-</article>
-
-  <script src="./scripts/script.js"></script>
+    <section id="kaart">
+        <div class="container">
+            <div class="row alt-row">
+                <div class="alt-col col col-12 col-md-6">
+                    <img class="afbeelding">
+                </div>
+                <div class="alt-col col col-12 col-md-6">
+                    <h1>David van Boxtel</h1>
+                </div>
+                <hr class="hr">
+                <div class="alt-col col col-12 col-md-6">
+                    <p>Html ****</p>
+                    <p>Css ***</p>
+                    <p>Javascript *</p>
+                </div>
+                <div class="alt-col col col-12 col-md-6">
+                    <p>Mijn naam is David, ik ben 22 jaar en ik woon in Uithoorn. Hiervoor heb ik de opleiding applicatie ontwikkelaar gedaan waardoor ik al een beetje ervaring heb met de front end.</p>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
