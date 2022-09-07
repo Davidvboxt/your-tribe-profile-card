@@ -1,0 +1,61 @@
+#kaart{ 
+    margin-top: 100px;
+    max-width: 700px;
+     align-items: center;
+}
+
+/* @media (max-width: 570px) {
+    #kaart {
+      width: auto;
+    }
+} */
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.afbeelding{
+    background-image: url('file:///C:/Users/david/OneDrive/Documenten/HVA/Eerste%20week/Visite%20kaartje/man-profiel-cartoon_18591-58482.jpg');
+    border-radius: 10px;
+    display: inline-block;
+    width: 25%;
+    padding-top: 25%;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.sterren{
+    padding-left: 17px;
+}
+
+.informatie{
+    margin-left: 40px;
+}
+
+.boven{
+    background-color: #584b4f;
+    border-radius: 10px 10px 0 0;
+    border: 3px solid black;
+    padding: 30px;
+    display: flex;
+    color: #efeae1;
+    justify-content: space-between;
+}
+
+.onder{
+    background-color: #8e8373;
+    border-radius: 0 0 10px 10px;
+    border: 3px solid black;
+    padding: 30px;
+    color: #efeae1;
+    display: flex;
+}
+
+.titel{
+    margin-left: 40px;
+}
+
+.informatie{
+    margin-left: 40px;
+}
