@@ -1,61 +1,64 @@
-#kaart{ 
+.business-card{
+    display: flex;
+    flex-direction: column;
+    /* background: linear-gradient(139deg, #584b4f 50%, #343233 50.5%); */
+    box-shadow: 0 7px 10px rgb(0 0 0 / 16%), 0 3px 6px rgb(0 0 0 / 23%);
+    width: 550px;
+    height: 300px;
+    max-width: 100%;
+    border-radius: 4px;
+    margin: 0 auto;
     margin-top: 100px;
-    max-width: 700px;
-     align-items: center;
 }
 
-/* @media (max-width: 570px) {
-    #kaart {
-      width: auto;
-    }
-} */
-
-ul {
-    list-style-type: none;
-    padding-left: 0;
-}
-
-.afbeelding{
-    background-image: url('file:///C:/Users/david/OneDrive/Documenten/HVA/Eerste%20week/Visite%20kaartje/man-profiel-cartoon_18591-58482.jpg');
-    border-radius: 10px;
-    display: inline-block;
-    width: 25%;
-    padding-top: 25%;
-    background-size: contain;
-    background-repeat: no-repeat;
-}
-
-.sterren{
-    padding-left: 17px;
-}
-
-.informatie{
-    margin-left: 40px;
-}
-
-.boven{
-    background-color: #584b4f;
-    border-radius: 10px 10px 0 0;
-    border: 3px solid black;
-    padding: 30px;
+.business-card .profile {
     display: flex;
-    color: #efeae1;
-    justify-content: space-between;
+    flex-basis: 150px;
+    width: 100%;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 15px;
+    background-color: #7bd5f5;
+    color: white;
 }
 
-.onder{
-    background-color: #8e8373;
-    border-radius: 0 0 10px 10px;
-    border: 3px solid black;
-    padding: 30px;
-    color: #efeae1;
+.business-card .profile .profile-image {
+    background-image: url(file:///C:/Users/david/OneDrive/Documenten/HVA/Eerste%20week/your-tribe-profile-card-main/your-tribe-profile-card-main/Visite%20kaartje%202/man-profiel-cartoon_18591-58482.jpg);
+    background-position: center;
+    background-size: cover;
+    width: 120px;
+    height: 120px;
+}
+
+.business-card .profile .profile-title {
+    padding-left: 15px;
     display: flex;
+    flex-direction: column;
 }
 
-.titel{
-    margin-left: 40px;
+.business-card .profile .profile-title h2 {
+    font-size: 1.4em;
 }
 
-.informatie{
-    margin-left: 40px;
+.business-card .info {
+    display: flex;
+    flex-grow: 1;
+}
+
+.business-card .info .info-contact{
+    list-style: none;
+}
+
+.business-card .info .info-contact ul{
+    list-style: none;
+    padding: 15px;
+}
+    
+.business-card .info .info-bio {
+    display: flex;
+    flex-grow: 1;
+    flex-basis: 50%;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 15px;
+    text-align: center;
 }
