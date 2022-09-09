@@ -15,32 +15,46 @@
 </head>
 <body>
     <div class="container">
-        <div class="business-card">
-            <div class="profile">
-                <img class="profile-image">
-                <div class="profile-title">
-                    <h1>David van Boxtel</h1>
-                    <h6>Front end developer</h6>
+        <div class="flip-card-3D-wrapper">
+            <div id="flip-card">
+                <div class="flip-card-front business-card">
+                    <div class="profile">
+                        <img class="profile-image">
+                        <div class="profile-title">
+                            <h1>David van Boxtel</h1>
+                            <h6>Front end developer</h6>
+                        </div>
+                    </div>
+                    <div class="info">
+                        <div class="info-contact d-flex">
+                            <ul>
+                                <li>Html</li>
+                                <li>Css</li>
+                                <li>Javascript</li>
+                            </ul>
+                            <ul>
+                                <li>⭐⭐⭐</li>
+                                <li>⭐⭐</li>
+                                <li>⭐</li>
+                            </ul>
+                        </div>
+                        <div class="info-bio">
+                            Meer weten?
+                            <button id="flip-card-btn-turn-to-back">Klik hier!</button>
+                        </div>
+                    </div>
                 </div>
-            </div>
-            <div class="info">
-                <div class="info-contact d-flex">
-                    <ul>
-                        <li>Html</li>
-                        <li>Css</li>
-                        <li>Javascript</li>
-                    </ul>
-                    <ul>
-                        <li>⭐⭐⭐</li>
-                        <li>⭐⭐</li>
-                        <li>⭐</li>
-                    </ul>
-                </div>
-                <div class="info-bio">
-                    <p>Mijn naam is David, ik ben 22 jaar en ik woon in Uithoorn. Hiervoor heb ik de opleiding applicatie ontwikkelaar gedaan waardoor ik al een beetje ervaring heb met de front end.</p>
+                <div class="flip-card-back business-card">
+                    <div class="info-bio">
+                        <p class="informatie">Mijn naam is David, ik ben 22 jaar en ik woon in Uithoorn. Hiervoor heb ik de opleiding applicatie ontwikkelaar gedaan waardoor ik al een beetje ervaring heb met de front end. Mijn hobbies zijn gamen en sporten.</p>
+                    </div>
+                    <button id="flip-card-btn-turn-to-front">
+                        Terug
+                    </button>
                 </div>
             </div>
         </div>
     </div>
 </body>
 </html>
+<script src="index.js"></script>
